@@ -23,16 +23,6 @@ var companySalesData = [
 ];
 
 
-// function totalSales(salesData){
-//   var salesSum = 0;
-//   for (var i = 0; i < salesData.length; i++){
-//     for (var j = 0; j < sales.length; j++){
-//       salesData[i].sales[j] += salesSum;
-//     }
-//   }
-//   return salesSum;
-// }
-
 
 function totalTax(salesData, taxRates) {
   var taxRate = taxRates[salesData.province];
@@ -50,7 +40,7 @@ function totalSales(sales) {
 }
 
 function calculateSalesTax(salesData, taxRates) {
-  // Implement your code here
+  
   var result= {};
 
   for ( var i = 0; i < salesData.length; i++){
